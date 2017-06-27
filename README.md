@@ -23,13 +23,43 @@ In your HTML
 <badge imagesrc="pathto/yourimage.jpg" text="1" imageClass="css-class-for-image"/>
 ```
 
+To use it globally
+
 ``` js
-import Vue from 'vue';
-import VueImageBadge from 'vue-image-badge';
+import Vue from 'vue'
+import { VueImageBadge } from 'vue-image-badge'
 
 Vue.use(VueImageBadge);
 
 ```
+or only in a single component
+
+``` js
+import { VueImageBadge } from 'vue-image-badge'
+export default {
+  name: 'myapp',
+  components: {
+    'badge': VueImageBadge
+  }
+}
+```
+Note, if you are using web-pack, you should specify the image url using `require`, e.g.
+
+``` js
+import { VueImageBadge } from 'vue-image-badge'
+export default {
+  name: 'app',
+  components: {
+    'badge': VueImageBadge
+  },
+  data: function () {
+    return {
+      imageSrc: require('./assets/images/image.jpg')
+    }
+  }
+}
+```
+
 
 ## Props
 
