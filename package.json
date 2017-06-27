@@ -3,6 +3,7 @@
   "version": "0.5.1",
   "description": "A Vue component to add badges to images",
   "author": "re:source design <info@resourcedesign.io>",
+  "main": "dist/vue-image-badges.min.js",
   "scripts": {
     "build": "webpack --config config/webpack.min.conf.js --display-error-details",
     "init": "curl -u 'resourcedesign' https://api.github.com/user/repos -d '{\"name\":\"vue-image-badges\"}'",

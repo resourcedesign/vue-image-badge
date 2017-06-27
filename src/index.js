@@ -1,13 +1,13 @@
-import VueBadge from "./VueBadge.vue"
+import VueBadge from './VueImageBadge.vue'
 
 const install = (Vue) => {
-  Vue.component("badge", VueBadge)
+  Vue.component('vue-image-badges', VueBadge)
 }
 
 export default {
-  install,
+  install
 }
 
 export {
-  VueBadge,
+  VueBadge
 }

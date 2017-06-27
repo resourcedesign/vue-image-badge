@@ -9,8 +9,8 @@ describe('Example Badge', () => {
       el: document.createElement('div'),
       render: (h) => h(ExampleBadge)
     })
-    const carouselInstance = vm.$children[0]
-    expect(carouselInstance._isMounted).toBe(true)
+    const badgeInstance = vm.$children[0]
+    expect(badgeInstance._isMounted).toBe(true)
 
     return utils.expectToMatchSnapshot(vm)
   })

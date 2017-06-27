@@ -1,7 +1,7 @@
 /* eslint-disable */
 
 import { play } from "vue-play"
-import Message from "../src/ExampleMessageComponent.vue"
+import Message from "../src/VueImageBadge.vue"
 
-play("Example Message Component", module)
+play("Example Badge Component", module)
   .add("default", h => h(Message))

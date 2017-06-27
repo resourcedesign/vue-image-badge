@@ -1,5 +1,5 @@
 <template>
-    <span class="badger" :data-badge="text"><img :class="imageClass":src="imagesrc" /></span>
+    <span class="badger" :data-badge="text"><img :class="imageClass" :src="imagesrc" /></span>
 </template>
 
 <script>
