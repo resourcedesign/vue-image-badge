@@ -10,6 +10,7 @@
     "test": "npm run test:client",
     "test:client": "jest --config tests/client.jest.json --forceExit",
     "test:client:coverage": "jest --config tests/client.jest.json --coverage --forceExit",
+    "test-coverage": "npm run test:client:coverage",
     "dev": "vue-play start",
     "docs": "npm run docs:dev",
     "docs:build": "gitbook install docs/ && gitbook build docs/",
