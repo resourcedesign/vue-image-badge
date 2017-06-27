@@ -19,13 +19,27 @@ npm install -S vue-image-badges
 ```
 
 ## Usage
+In your HTML
+``` xml
+<badge imagesrc="pathto/yourimage.jpg" text="1" imageClass="css-class-for-image"/>
+```
 
 ``` js
 import Vue from 'vue';
 import VueBadge from 'vue-image-badges';
 
 Vue.use(VueBadge);
+
 ```
+
+## Props
+
+Property|Type|Default|Description
+---|---|---|---
+imagesrc|string||path to image
+text|string||text to display in badge
+imageClass|string||class for the the img tag
+
 
 ## Documentation
 

@@ -3,7 +3,6 @@
   "version": "0.5.0",
   "description": "A Vue component to add badges to images",
   "author": "re:source design <info@resourcedesign.io>",
-  "private": true,
   "scripts": {
     "init": "curl -u 'resourcedesign' https://api.github.com/user/repos -d '{\"name\":\"vue-image-badges\"}'",
     "init:private": "curl -u 'resourcedesign' https://api.github.com/user/repos -d '{\"name\":\"vue-image-badges\", \"private\":true}'",
