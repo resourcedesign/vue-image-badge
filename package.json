@@ -1,13 +1,13 @@
 {
-  "name": "vue-image-badges",
+  "name": "vue-image-badge",
   "version": "0.5.2",
   "description": "A Vue component to add badges to images",
   "author": "re:source design <info@resourcedesign.io>",
-  "main": "dist/vue-image-badges.min.js",
+  "main": "dist/vue-image-badge.min.js",
   "scripts": {
     "build": "webpack --config config/webpack.min.conf.js --display-error-details",
-    "init": "curl -u 'resourcedesign' https://api.github.com/user/repos -d '{\"name\":\"vue-image-badges\"}'",
-    "init:private": "curl -u 'resourcedesign' https://api.github.com/user/repos -d '{\"name\":\"vue-image-badges\", \"private\":true}'",
+    "init": "curl -u 'resourcedesign' https://api.github.com/user/repos -d '{\"name\":\"vue-image-badge\"}'",
+    "init:private": "curl -u 'resourcedesign' https://api.github.com/user/repos -d '{\"name\":\"vue-image-badge\", \"private\":true}'",
     "lint": "eslint --ext .js,.vue src",
     "test": "npm run test:client",
     "test:client": "jest --config tests/client.jest.json --forceExit",
@@ -17,7 +17,7 @@
     "docs": "npm run docs:dev",
     "docs:build": "gitbook install docs/ && gitbook build docs/",
     "docs:dev": "npm run docs:build && gitbook serve docs/",
-    "docs:publish": "npm run docs:build && cd docs/_book && git init && git commit --allow-empty -m 'Update docs' && git checkout -b gh-pages && git add . && git commit -am 'Update docs' && git push git@github.com:resourcedesign/vue-image-badges gh-pages --force"
+    "docs:publish": "npm run docs:build && cd docs/_book && git init && git commit --allow-empty -m 'Update docs' && git checkout -b gh-pages && git add . && git commit -am 'Update docs' && git push git@github.com:resourcedesign/vue-image-badge gh-pages --force"
   },
   "devDependencies": {
     "babel-core": "^6.0.0",

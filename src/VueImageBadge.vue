@@ -4,7 +4,7 @@
 
 <script>
   export default {
-    name: 'vue-image-badges',
+    name: 'vue-image-badge',
     props: {
       imagesrc: {
         type: String,

@@ -1,6 +1,6 @@
-# vue-image-badges
-[![Build Status](https://travis-ci.org/resourcedesign/vue-image-badges.svg?branch=master)](https://travis-ci.org/resourcedesign/vue-image-badges)
-[![Latest Stable Version](https://img.shields.io/npm/v/vue-image-badges.svg)](https://www.npmjs.com/package/vue-image-badges)
+# vue-image-badge
+[![Build Status](https://travis-ci.org/resourcedesign/vue-image-badge.svg?branch=master)](https://travis-ci.org/resourcedesign/vue-image-badge)
+[![Latest Stable Version](https://img.shields.io/npm/v/vue-image-badge.svg)](https://www.npmjs.com/package/vue-image-badge)
 
 > A Vue component to add badges to images
 
@@ -14,7 +14,7 @@
 ## Installation
 
 ``` bash
-npm install -S vue-image-badges
+npm install -S vue-image-badge
 ```
 
 ## Usage
@@ -25,9 +25,9 @@ In your HTML
 
 ``` js
 import Vue from 'vue';
-import VueBadge from 'vue-image-badges';
+import VueImageBadge from 'vue-image-badge';
 
-Vue.use(VueBadge);
+Vue.use(VueImageBadge);
 
 ```
 

@@ -2,7 +2,7 @@
 
 ``` js
 import Vue from 'vue';
-import VueExampleComponent from 'vue-image-badges';
+import VueExampleComponent from 'vue-image-badge';
 
 Vue.use(VueExampleComponent);
 ```

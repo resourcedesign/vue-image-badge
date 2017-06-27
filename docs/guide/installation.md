@@ -1,5 +1,5 @@
 ## Installation
 
 ``` bash
-npm install -S vue-image-badges
+npm install -S vue-image-badge
 ```

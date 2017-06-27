@@ -1,7 +1,7 @@
 const Vue = require('vue')
 const utils = require('../utils')
 
-const ExampleBadge = require('../../../src/VueBadge.vue')
+const ExampleBadge = require('../../../src/VueImageBadge.vue')
 
 describe('Example Badge', () => {
   it('should mount successfully', () => {

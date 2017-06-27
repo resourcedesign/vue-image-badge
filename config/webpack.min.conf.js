@@ -5,7 +5,7 @@ const base = require('./webpack.base.conf')
 
 var config = Object.assign({}, base)
 
-config.output.filename = 'vue-image-badges.min.js'
+config.output.filename = 'vue-image-badge.min.js'
 
 config.plugins = (config.plugins || []).concat([
   new webpack.optimize.UglifyJsPlugin({
