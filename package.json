@@ -1,6 +1,6 @@
 {
   "name": "vue-image-badges",
-  "version": "0.5.0",
+  "version": "0.5.1",
   "description": "A Vue component to add badges to images",
   "author": "re:source design <info@resourcedesign.io>",
   "scripts": {
