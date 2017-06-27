@@ -1,7 +1,7 @@
 # vue-image-badges
 [![Build Status](https://travis-ci.org/resourcedesign/vue-image-badges.svg?branch=master)](https://travis-ci.org/resourcedesign/vue-image-badges)
 [![Coverage Status](https://coveralls.io/repos/github/resourcedesign/vue-image-badges/badge.svg?branch=master)](https://coveralls.io/github/resourcedesign/vue-image-badges?branch=master)
-[![Latest Stable Version](https://img.shields.io/npm/v/resourcedesign/vue-carousel.svg)](https://www.npmjs.com/package/vue-image-badges)
+[![Latest Stable Version](https://img.shields.io/npm/v/vue-image-badges.svg)](https://www.npmjs.com/package/vue-image-badges)
 
 > A Vue component to add badges to images
 

@@ -1,0 +1,4 @@
+exports[`Example Badge should mount successfully 1`] = `
+"img(src=\'\')
+"
+`;
